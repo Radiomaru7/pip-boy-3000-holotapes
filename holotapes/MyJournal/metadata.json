@@ -1,0 +1,16 @@
+{
+  "id": "my-journal",
+  "name": "My Journal",
+  "author": "@Radiomaru7",
+  "version": "1.0.0",
+  "description": "A quest and note journal with its own T9 predictive keyboard and a Fallout-themed dictionary.",
+  "icon": "storage/MY-JOURNAL.png",
+  "previews": ["previews/LIST.png", "previews/KEYBOARD.png"],
+  "type": "app",
+  "readme": "README.md",
+  "storage": [
+    { "pipboy": "HOLO/MY_JOURNAL/APP.JS", "source": "storage/APP.ts" },
+    { "pipboy": "HOLO/MY_JOURNAL/T9.JS", "source": "storage/T9.ts" }
+  ],
+  "storageOptional": []
+}
